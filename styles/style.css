@@ -86,6 +86,7 @@ body {
   justify-content: center;
   flex-direction: column;
   flex-basis: 50%;
+  align-items: center;
 }
 
 .hero__left h1{
@@ -100,7 +101,8 @@ body {
   color: #fff;
   line-height: 30px;
   opacity: 0.9;
-  margin: 10px 0;
+  margin: 10px auto;
+  width: 70%;
 }
 
 .hero__input{
@@ -111,7 +113,6 @@ body {
   padding: 5px 10px;
   /* width: 50%; */
   margin-top: 20px;
-  margin-right: auto;
 }
 
 .hero__input input{
@@ -220,8 +221,9 @@ body {
 }
 
 .section__img img{
-  width: 500px;
+  width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .section3{
@@ -232,9 +234,9 @@ body {
 }
 
 .section3 .section__img img{
-  width: 500px;
+  width: 100%;
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .section4{
@@ -284,7 +286,7 @@ body {
 }
 
 .profile__data img{
-  width: 400px;
+  width: 100%;
   height: auto;
   object-fit: contain;
 }
