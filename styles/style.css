@@ -60,7 +60,7 @@ body {
 .header__hero{
   display: flex;
   padding: 30px 60px;
-  height: 75vh; 
+  /* height: 75vh;  */
 }
 
 .hero__right{
@@ -71,14 +71,14 @@ body {
 }
 
 .img{
-  width: 60%;
+  width: 100%;
   height: 100%;
 }
 
 .hero__right img{
   width: 100%;
   height: 100%; 
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hero__left{
@@ -357,6 +357,14 @@ body {
     flex-wrap: wrap;
   }
 
+  .header__nav ul li{
+    margin: 0 15px;
+  }
+
+  .header__nav ul li:nth-child(6){
+    margin-right: 10px;
+  }
+
   .header__hero{
     flex-direction: column;
     text-align: center;
@@ -364,6 +372,30 @@ body {
 
   .hero__left h1{
     font-size: 30px;
+  }
+
+  .hero__left p{
+    font-size: 25px;
+  }
+
+  .hero__input{
+    margin: 10px auto;
+  }
+
+  .section2{
+    flex-direction: column-reverse;
+  }
+
+  .section__left p{
+    font-size: 20px;
+  }
+
+  .section3{
+    flex-direction: column-reverse;
+  }
+  
+  .section4{
+    flex-direction: column-reverse;
   }
 
 }
